@@ -1,0 +1,174 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+	section	{
+		padding: 50px 0px;
+	}
+
+	.container-center {
+		height: 30% ;
+		width: 50% ;
+		padding: 10px;
+
+	}
+	.content_head h1{
+		font-size: 48px;
+	}
+	.content_head p{
+		font-size: 24px;
+	}
+	.btn_head{
+		margin-top: 48px;
+	}
+	
+	.mobile_margin{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.s_about h2{
+		text-align: center;
+	}
+	.s_about p{
+		text-align: justify;
+		max-width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.s_service h2{
+		text-align: center;
+	}
+
+	.s_service p{
+		text-align: justify;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.s_service .service_icon{
+		font-size: 3em;
+	}
+	.s_service .service_icon{
+		margin-bottom: 25px;
+	}
+
+	.s_service .first_s_icon{
+		text-align: center;
+	}
+
+	.s_service .second_s_icon{
+		text-align: center;
+	}
+	.s_service .right_text_align h2{
+		margin-left: 0px;
+	}
+	.s_service .right_text_align p{
+		margin-left: auto;
+	}
+
+	.s_contact h2{
+		text-align: center;
+	}
+
+	.s_contact p{
+		text-align: justify;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.s_contact form{
+		margin-top: 25px;
+		max-width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+		}
+}
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+		 h2{
+		font-size: 30px
+	}
+
+	.container-center {
+		height: 50% ;
+		width: 90% ;
+		padding: 0px;
+	}
+	.content_head h1{
+		font-size: 32px;
+
+
+	}
+	.content_head p{
+		font-size: 18px;
+		margin: 5px 0px 0px 0px ;
+	}
+
+	.btn_head{
+		margin-top: 32px ;
+		padding: 5px 10px 5px 10px;
+	}
+
+	.s_about img{
+		max-height: 220px ;
+	}
+
+	.s_service .service_icon{
+		margin-top: 25px;
+	}
+	.s_service .first_s_icon{
+		text-align: center;
+	}
+	
+
+	
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
