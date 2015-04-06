@@ -68,7 +68,7 @@ p {
   z-index: 9998; }
 
 .loader_inner {
-  background-image: url("../img/load.GIF");
+  background-image: url("../img/load.gif");
   background-repeat: no-repeat;
   background-position: center center;
   background-color: #fff;
