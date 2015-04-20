@@ -22,7 +22,7 @@ header,
 footer {
   position: relative; }
 
-section {
+section section {
   padding: 70px 0px; }
 
 header {
