@@ -47,7 +47,6 @@ h3 {
   font-weight: normal; }
 
 p {
-  text-align: justify;
   font-size: 16px;
   color: #73879c; }
 
@@ -302,17 +301,13 @@ p {
   -webkit-animation-duration: 2s;
   -moz-animation-duration: 2s;
   animation-duration: 2s; }
-  .s_about .portrait a {
-    outline: none; }
-    .s_about .portrait a:active, .s_about .portrait a:focus {
-      outline: none; }
-    .s_about .portrait a img {
-      display: inline-block;
-      max-width: 320px;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-      -ms-border-radius: 50%;
-      border-radius: 50%; }
+  .s_about .portrait img {
+    display: inline-block;
+    max-width: 320px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%; }
 
 .s_service h2 {
   margin: 0;

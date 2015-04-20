@@ -27,8 +27,6 @@ $(document).ready(function() {
 	$("#mob_menu a").mPageScroll2id({
 });
 
-	$('.popup-link').magnificPopup({type:'image'});
-
 	$(function () { $("input,select,textarea").jqBootstrapValidation(); } );
 
 

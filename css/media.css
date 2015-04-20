@@ -37,7 +37,6 @@
 		text-align: center;
 	}
 	.s_about p{
-		text-align: justify;
 		max-width: 500px;
 		margin-left: auto;
 		margin-right: auto;
@@ -48,7 +47,6 @@
 	}
 
 	.s_service p{
-		text-align: justify;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -79,7 +77,6 @@
 	}
 
 	.s_contact p{
-		text-align: justify;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -126,6 +123,9 @@
 
 	.s_about img{
 		max-height: 220px ;
+	}
+	.s_about p{
+		text-align: left;
 	}
 
 	.s_service .service_icon{
