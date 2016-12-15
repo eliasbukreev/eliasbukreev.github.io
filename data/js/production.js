@@ -979,13 +979,14 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
 
 $(document).ready(function() {
 
-	function heightResize(){
-	$("header").css("height", $(window).height());
-	};		
-	heightResize();
-	$(window).resize(function(){
-		heightResize();
-	});
+  //resize header for viewport
+
+  heightResize("header");
+
+  function heightResize(selector){
+    var sel = document.querySelector(selector);
+    sel.style.height = window.innerHeight+"px";
+  };
 
 	$(".btn_head").addClass("animated fadeIn");
 	$(".main_nav").addClass("animated fadeIn");

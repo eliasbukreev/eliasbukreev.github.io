@@ -935,7 +935,7 @@ textarea {
   letter-spacing: 1px;
   text-indent: 15px;
   color: #666;
-  line-height: 35px; }  
+  line-height: 35px; }
 
 .form-group {
   margin-bottom: 20px; }
@@ -948,7 +948,6 @@ textarea {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  position: relative;
   text-transform: uppercase;
   letter-spacing: 1px;
   padding: 5px 30px;
@@ -968,7 +967,7 @@ textarea {
     -webkit-transition-property: color;
     -moz-transition-property: color;
     transition-property: color; }
-  .form_button::before {
+  .form_button:before {
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
@@ -988,9 +987,9 @@ textarea {
     -moz-transition-property: opacity;
     transition-property: opacity;
     z-index: -1; }
-  .form_button:hover::before {
+  .form_button:hover:before {
     opacity: 1; }
-  .form_button:focus::before {
+  .form_button:focus:before {
     opacity: 1; }
 
 .form-group p {

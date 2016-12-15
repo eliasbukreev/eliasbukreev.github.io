@@ -5,7 +5,7 @@ module.exports = function(grunt) {
         pkg: grunt.file.readJSON('package.json'),
 
         concat: {
-            dist: {
+            js: {
                  src: [
             'data/libs/jquery/jquery-2.1.3.min.js',
             'data/libs/waypoints/waypoints.min.js',
@@ -19,7 +19,7 @@ module.exports = function(grunt) {
                      ],
                  dest: 'data/js/production.js',
                  },
-            dist: {
+            css: {
                  src: [
             'data/libs/bootstrap/bootstrap-grid.min.css',
             'data/libs/animate/animate.min.css',
